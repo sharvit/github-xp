@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "css": ["xp.css"]
+      "css": ["xp.css"],
+      "scripts": ["xp.js"]
     }
   ],
   "icons": {
